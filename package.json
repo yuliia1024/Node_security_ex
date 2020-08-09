@@ -10,10 +10,13 @@
   "author": "Yuliia Kovalenko",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "express-rate-limit": "^5.1.3",
     "helmet": "^4.0.0",
-    "mongoose": "^5.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
     "nodemon": "^1.12.0"
   },
   "devDependencies": {
